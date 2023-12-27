@@ -1,6 +1,5 @@
 function appendtoDOm (data) {
     const cityname = document.querySelector(".city");
-    const conditionIcon = document.querySelector(".condition")
     const country = document.querySelector(".country");
     const tempt = document.querySelector(".tempt");
     const humidity = document.querySelector(".humidity");
