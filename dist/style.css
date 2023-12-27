@@ -1,5 +1,4 @@
 :root {
-    --dark-blue: rgb(25, 25, 112,0.7);
     --font-white: #F5F5F5;
     --light-blue: #4682B4;
     font-family: 'Roboto', sans-serif;
@@ -48,6 +47,14 @@ body {
     text-align: center;
 }
 
+.container p {
+    font-size: 1.5rem;
+}
+
+.tempt {
+    font-size: 2rem;
+}
+
 .container.active {
     display: block
 }
@@ -56,9 +63,10 @@ body {
     font-size: 1.1rem;
     padding: .4rem;
     margin-right: .5rem;
-    background-color: transparent;
+    background-color: rgba(200,200,200, 0.25);
+    border-radius: 0.5rem;
+    outline: none;
     border: none;
-    border-bottom: 1px solid white;
     color: var(--font-white);
 }
 
